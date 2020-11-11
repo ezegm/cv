@@ -1,0 +1,101 @@
+nav{
+  height: 75px;
+  background-color: royalblue;
+}
+
+header{
+  height: 400px;
+  background-color: lightskyblue;
+}
+
+#greybox{
+  height: 500px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#graybox{
+  height: 40px;
+  background-color: silver;
+}
+
+footer{
+  height: 100px;
+  background-color: black;
+}
+
+#yellow{
+  height: 200px;
+  background-color: khaki;
+  padding-bottom: 75px;
+}
+
+.orangebox{
+  height: 400px;
+  width: 48%;
+  background-color: tomato;
+}
+.main{
+  background-color: gray;
+  margin: 75px 100px 75px 100px;
+}
+.gro{
+  color: green;
+  font-family:sans-serif;
+  height: auto;
+  font-style: italic;
+  font-weight: normal;
+  background-repeat: round;
+  line-height: normal;
+  font-variant: small-caps;
+  font-size: 28px;
+}
+.fra{
+  color:royalblue;
+  font-family: sans-serif;
+  height: auto;
+  font-style: oblique;
+  font-weight: bolder;
+  background-repeat: round;
+  line-height: normal;
+  font-variant: small-caps;
+  font-size: 28px;
+}
+
+.hra{
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-variant: small-caps;
+}
+.euro{
+  font-size: 28px;
+  font-style: italic;
+  font-weight: normal;
+  font-variant: small-caps;
+
+}
+.low{
+  color:royalblue;
+  font-family: sans-serif;
+  height: auto;
+  font-style: oblique;
+  font-weight: bolder;
+  background-repeat: round;
+  line-height: normal;
+  font-variant: small-caps;
+  font-size: 28px;
+}
+.grp{
+  color:white;
+  font-family: sans-serif;
+  height: auto;
+  font-style: oblique;
+  font-weight: bolder;
+  background-repeat: round;
+  line-height: normal;
+  font-variant: small-caps;
+  font-size: 28px;
+}
