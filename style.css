@@ -64,3 +64,21 @@ position: absolute;
 left: 408px;
 top: 400px;
 }
+.main{
+background-color: gray;
+margin: 75px 100px 75px 100px;
+}
+#yellow{
+  height: 200px;
+  background-color: khaki;
+  padding-bottom: 75px;
+}
+#graybox{
+  height: 40px;
+  background-color: silver;
+}
+.orangebox{
+  height: 400px;
+  width: 48%;
+  background-color: tomato;
+}
