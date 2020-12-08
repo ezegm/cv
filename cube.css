@@ -1,3 +1,4 @@
+
 nav{
   height: 75px;
   background-color: royalblue;
@@ -6,6 +7,13 @@ nav{
 header{
   height: 400px;
   background-color: lightskyblue;
+  padding: 5% 15% 5% 15%;
+ font-size: 2em;
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-direction: row;
+   flex-flow: wrap;
 }
 
 #greybox{
@@ -14,32 +22,70 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  flex-direction: row;
+    flex-flow: wrap;
 }
 
 #graybox{
   height: 40px;
   background-color: silver;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+    flex-flow: wrap;
 }
+.prefooter{
+
+  align-items: center;
+  display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-flow: wrap;
+  height: 40px;
+  background-color: rgba(9, 10, 22, 0.89);
+}
+
 
 footer{
   height: 100px;
   background-color: black;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+    flex-flow: wrap;
 }
 
 #yellow{
   height: 200px;
   background-color: khaki;
   padding-bottom: 75px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+    flex-flow: wrap;
 }
 
 .orangebox{
   height: 400px;
   width: 48%;
   background-color: tomato;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+    flex-flow: wrap;
 }
 .main{
   background-color: gray;
   margin: 75px 100px 75px 100px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+    flex-flow: wrap;
 }
 .gro{
   color: green;
@@ -61,11 +107,11 @@ footer{
   background-repeat: round;
   line-height: normal;
   font-variant: small-caps;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .hra{
-  font-size: 28px;
+  font-size: 20px;
   font-style: italic;
   font-weight: normal;
   font-variant: small-caps;
@@ -98,4 +144,38 @@ footer{
   line-height: normal;
   font-variant: small-caps;
   font-size: 28px;
+}
+@media screen and (max-width: 980px) {
+#page {width: 95%;}
+#content {width: 70%;}
+#sidebar {width: 25%;}
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0px;
+  height: 75px;
+}
+
+nav a{
+  text-decoration: none;
+}
+nav a:hover{
+  border-style: inset;
+  padding: 10%;
+}
+.tna{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+    flex-flow: wrap;
+    height: 200px;
+    width: 200px;
+}
+.rt{
+  height: 100px;
+  width: 100px;
 }
